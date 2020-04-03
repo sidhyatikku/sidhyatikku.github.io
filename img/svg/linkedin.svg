@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-423.000000, -2527.000000)" fill-rule="nonzero">
+            <g id="Social" transform="translate(423.000000, 2527.000000)">
+                <g id="Linkedin">
+                    <path d="M17.325,22 L17.325,14.025 C17.325,12.1 16.6375,10.725 14.9875,10.725 C13.6125,10.725 12.925,11.6875 12.5125,12.5125 C12.375,12.7875 12.375,13.2 12.375,13.75 L12.375,22 L7.7,22 C7.7,22 7.8375,8.525 7.7,7.15 L12.375,7.15 L12.375,9.2125 C12.375,9.2125 12.375,9.2125 12.375,9.2125 L12.375,9.2125 L12.375,9.2125 C12.925,8.25 14.025,6.7375 16.5,6.7375 C19.6625,6.7375 22,8.8 22,13.475 L22,22 L17.325,22 Z M2.6125,5.0875 L2.6125,5.0875 C0.9625,5.0875 0,3.9875 0,2.6125 C0,1.1 1.1,0 2.6125,0 C4.125,0 5.225,1.1 5.225,2.6125 C5.3625,3.9875 4.2625,5.0875 2.6125,5.0875 Z M4.95,22 L0.275,22 L0.275,7.15 L4.95,7.15 L4.95,22 Z" id="linkedin_shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
