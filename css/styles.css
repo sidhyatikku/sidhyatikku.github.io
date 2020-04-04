@@ -3,6 +3,16 @@
 html{
   scroll-behavior: smooth;
 }
+i.fas, i.fab {
+  color: #AAAAAA;
+  font-size: 25px;
+  margin-right: 5%;
+  transition: 0.2s ease;
+}
+i.fas:hover, i.fab:hover {
+  color: #F24646;
+}
+
 .body {
   background-color: #ffffff;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
@@ -19,7 +29,7 @@ html{
   padding: 0.75%;
   width: 100%;
   z-index: 1;
-  transition: 0.7s ease;
+  transition: 0.1s ease-in;
 }
 .header.active {
     background: #ffffff;
@@ -642,48 +652,15 @@ html{
   margin-top: 3%;
   text-align: center;
 }
-.linkedin_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.dribbble_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.behance_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.twitter_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.email_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.instagram_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.medium_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 6%;
-}
-.github_logo {
-  fill: #F24646;
-  padding: 0px;
-  padding-right: 0%;
-}
+
 
 @media only screen and (max-height: 700px) and (orientation: portrait) {
+  i.fas,
+  i.fab {
+    color: #F24646;
+    font-size: 19px;
+    margin-right: 7%;
+  }
 
   .header {
     font-size: 30px;
@@ -710,7 +687,7 @@ html{
 
   .projects {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 7vh;
   }
 
   .consilium{
@@ -782,7 +759,7 @@ html{
     color: white;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
-    transition: 0.7s ease;
+    transition: 0.2s ease;
 
   }
 
@@ -801,6 +778,12 @@ html{
 
 @media only screen and (min-height:701px) and (orientation: portrait){
 
+  i.fas,
+  i.fab {
+    color: #F24646;
+    font-size: 19px;
+    margin-right: 7%;
+  }
   .header {
     font-size: 30px;
     padding-top: 2%;
@@ -826,7 +809,7 @@ html{
 
   .projects {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 7vh;
   }
 
   .consilium{
@@ -898,7 +881,7 @@ html{
     color: white;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
-    transition: 0.7s ease;
+    transition: 0.2s ease;
 
   }
 
