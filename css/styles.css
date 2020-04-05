@@ -72,6 +72,9 @@ body {
   font-weight: 800;
   color: #ffffff;
 }
+.intro2 {
+  display: none;
+}
 .typewrite {
   padding: 5%;
   text-align: center;
