@@ -13,7 +13,7 @@ i.fas:hover, i.fab:hover {
   color: #F24646;
 }
 
-.body {
+body {
   background-color: #ffffff;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
