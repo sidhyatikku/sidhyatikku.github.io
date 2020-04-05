@@ -650,6 +650,20 @@ body {
   margin-bottom: 2%;
   color: #aaaaaa;
 }
+
+#heartrex {
+  margin-right: 0;
+  font-size:16px;
+  animation: colorchange 10s infinite;
+}
+@keyframes colorchange {
+      0%   {color: red;}
+      25%  {color: orange;}
+      50%  {color: green;}
+      75%  {color: blue;}
+      100% {color: red;}
+}
+
 .social {
   margin: 2%;
   margin-top: 3%;
