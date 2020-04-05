@@ -7,11 +7,18 @@ html{
 
 body {
   text-align: center;
+  animation: colorchange 10s infinite;
   background-color: #F24646;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
 }
-
+@keyframes colorchange {
+    0%   {background-color: red;}
+    25%  {background-color: orange;}
+    50%  {background-color: green;}
+    75%  {background-color: blue;}
+    100% {background-color: red;}
+}
 .texterror {
   color: #ffffff;
   font-weight: 700;
@@ -36,9 +43,16 @@ body {
   padding-right: 40px;
   border-radius: 80px;
   background: #ffffff;
-  color: #F24646;
+  animation: colorchange2 10s infinite;
   font-weight: 600;
   font-size: 2vw;
+}
+@keyframes colorchange2 {
+      0%   {color: red;}
+      25%  {color: orange;}
+      50%  {color: green;}
+      75%  {color: blue;}
+      100% {color: red;}
 }
 
 @media only screen and (max-width:1024px) and (orientation:portrait){
