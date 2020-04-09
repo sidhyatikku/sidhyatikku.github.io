@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="css/404.css">
+    <!-- <link rel="stylesheet" href="css/404.css"> -->
     <link rel="shartcut icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Facebook -->
     <meta property="fb:app_id" content="1049140398812768"/>
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://sidhyatikku.com">
@@ -38,6 +38,111 @@
     <title>Error 404</title>
   </head>
   <body>
+    <style media="screen">
+      @import url('https://cdn.rawgit.com/mfd/6940194d19c423c59b3964701c854e44/raw/4f574505e53addf632209ee262d13c700b762bae/avenir.css');
+      @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+
+      html{
+        scroll-behavior: smooth;
+      }
+
+      body {
+        text-align: center;
+        animation: colorchange 10s infinite;
+        background-color: #F24646;
+        font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
+        font-weight: 500;
+      }
+      @keyframes colorchange {
+          0%   {background-color: red;}
+          25%  {background-color: orange;}
+          50%  {background-color: green;}
+          75%  {background-color: blue;}
+          100% {background-color: red;}
+      }
+      .texterror {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 15vw;
+        margin-top: 150px;
+
+      }
+      .notfound {
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 2vw;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        margin-right: 50px;
+        margin-left: 50px;
+      }
+
+      .homelink {
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 80px;
+        background: #ffffff;
+        animation: colorchange2 10s infinite;
+        font-weight: 600;
+        font-size: 2vw;
+      }
+      @keyframes colorchange2 {
+            0%   {color: red;}
+            25%  {color: orange;}
+            50%  {color: green;}
+            75%  {color: blue;}
+            100% {color: red;}
+      }
+
+      @media only screen and (max-width:1024px) and (orientation:portrait){
+
+        .texterror {
+          font-size: 15vh;
+          margin-top: 20vh;
+        }
+
+        .notfound {
+          font-size: 2vh;
+          margin-top: 3vh;
+          margin-right: 2vw;
+          margin-left: 2vw;
+          margin-bottom: 8vh;
+        }
+
+        .homelink {
+          font-size: 2.5vh;
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+
+      }
+
+      @media only screen and (max-width:1024px) and (orientation:landscape){
+
+        .texterror {
+          font-size: 15vh;
+          margin-top: 25vh;
+        }
+
+        .notfound {
+          font-size: 2vw;
+          margin-top: 3vh;
+          margin-right: 2vw;
+          margin-left: 2vw;
+          margin-bottom: 8vh;
+        }
+
+        .homelink {
+          font-size: 2vw;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+      }
+
+    </style>
     <div class="texterror">404</div>
     <div class="notfound">Dear Padawan, The Force is strong in you but the page you're trying to find does not EXIST.</div>
     <a href="https://sidhyatikku.com/" class="homelink">Home</a>
