@@ -14,7 +14,7 @@ i.fas:hover, i.fab:hover {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
 }
@@ -649,6 +649,7 @@ body {
   font-weight: 600;
   margin-bottom: 2%;
   color: #aaaaaa;
+  font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
 }
 
 #heartrex {
