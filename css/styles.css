@@ -20,19 +20,39 @@ body {
 }
 .header {
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
   color: #FFFFFF;
   background-color: transparent;
   position: fixed;
-  padding: 0.75%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 100%;
   z-index: 1;
   transition: 0.1s ease-in;
 }
+.header a.hamburger {
+  display: none;
+}
+.header a.nameh {
+  text-decoration:none;
+  color:inherit;
+  float:left;
+  padding-left:3%;
+  font-weight: 600;
+  font-size: 35px;
+}
+.header a.connecth, a.resumeh {
+  text-decoration:none;
+  color:inherit;
+  float:right;
+  padding-right:3%;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 0.25%;
+}
 .header.active {
     background: #ffffff;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: #F24646;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.50);
@@ -65,7 +85,7 @@ body {
   color: #ffffff;
 }
 .intro {
-  padding-top: 30%;
+  padding-top: 40%;
   text-align: center;
   font-size: 120px;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
@@ -679,12 +699,49 @@ body {
     font-size: 19px;
     margin-right: 7%;
   }
+  i.fas.fa-bars{
+    color: #F24646;
+    font-size: 25px;
+  }
+  i.fas.fa-bars.active{
+    color: #F24646;
+    font-size: 25px;
+  }
 
   .header {
+    color: #F24646;
     font-size: 30px;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-color: #ffffff;
   }
+  .header a.nameh {
+    float: left;
+    text-decoration:none;
+    color:inherit;
+    padding-left:5%;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .header a.connecth, a.resumeh {
+    float: left;
+    text-decoration:none;
+    color:inherit;
+    padding-left:8%;
+    padding-top: 3%;
+    font-weight: 600;
+    font-size: 32px;
+  }
+#linkh{
+  padding-top: 2%;
+  display: none;
+}
+.header a.hamburger {
+  float: right;
+  padding-right: 4%;
+  color: #F24646;
+  display: block;
+}
   .rectangle {
     height: 80vh;
   }
@@ -802,11 +859,48 @@ body {
     font-size: 19px;
     margin-right: 7%;
   }
+i.fas.fa-bars{
+  color: #F24646;
+  font-size: 25px;
+}
+i.fas.fa-bars.active{
+  color: #F24646;
+  font-size: 25px;
+}
   .header {
+    color: #F24646;
     font-size: 30px;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-color: #ffffff;
   }
+  .header a.nameh {
+    float: left;
+    text-decoration:none;
+    color:inherit;
+    padding-left:5%;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .header a.connecth, a.resumeh {
+    float: left;
+    text-decoration:none;
+    color:inherit;
+    padding-left:8%;
+    padding-top: 3%;
+    font-weight: 600;
+    font-size: 32px;
+  }
+#linkh{
+  padding-top: 2%;
+  display: none;
+}
+.header a.hamburger {
+  float: right;
+  padding-right: 4%;
+  color: #F24646;
+  display: block;
+}
   .rectangle{
     height: 85vh;
   }
