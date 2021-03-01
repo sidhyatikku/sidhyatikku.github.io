@@ -119,6 +119,42 @@ body {
   margin: 5%;
   margin-bottom: 1%;
 }
+.signah {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+}
+.signah_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.signah_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0,0,0,0.65);
+}
+.signah:hover .signah_overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+.signah_overlay_text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .consilium {
   display: inline-block;
   position: relative;
@@ -765,6 +801,9 @@ body {
     margin-bottom: 7vh;
   }
 
+  .signah{
+    width: 100%;
+  }
   .consilium{
     width: 100%;
   }
@@ -924,6 +963,9 @@ i.fas.fa-bars.active{
     margin-bottom: 7vh;
   }
 
+  .signah{
+    width: 100%;
+  }
   .consilium{
     width: 100%;
   }
