@@ -1144,3 +1144,16 @@ i.fas.fa-bars.active{
   }
 
 }
+
+@media only screen and (max-width: 1499px) and (min-width: 1023px) and (orientation: landscape){
+
+
+  i.fas, i.fab {
+    font-size: 20px;
+  }
+
+  .end_text {
+    font-size: 12px;
+  }
+
+}

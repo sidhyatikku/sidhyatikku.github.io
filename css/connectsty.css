@@ -537,3 +537,36 @@ i.fas.fa-bars.active{
     margin-bottom: 3vh;
   }
 }
+
+@media only screen and (max-width: 1499px) and (min-width: 1023px) and (orientation: landscape){
+
+  .about_me_intro {
+    font-size: 2.5vw;
+  }
+
+  #myImage {
+    margin-left: 10vw;
+  }
+
+
+  .about_txt {
+    font-size: 1.5vw;
+  }
+
+  .about_text_parent {
+    margin-right: 10vw;
+  }
+
+  .get_touch {
+    margin-bottom: 10vh;
+  }
+
+  i.fas, i.fab {
+    font-size: 20px;
+  }
+
+  .end_text {
+    font-size: 12px;
+  }
+
+}
