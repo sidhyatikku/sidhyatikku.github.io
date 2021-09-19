@@ -44,14 +44,21 @@
 <script src="js/scroll_mast.js" charset="utf-8"></script>
 <script src="js/menuani.js" charset="utf-8"></script>
 
+
+<div class="sctop" display: "none" id="scroll_to_top"></div>
+
   <div class="header">
-    <a href="index.html" class="nameh">Sidhya Tikku</a>
+    <a href="index.html#scroll_to_top" class="nameh">Sidhya Tikku</a>
+
     <div id="linkh">
       <a href="resume.pdf" class="resumeh" target="_blank">Resume</a>
+      <a href="#arttext" class="resumeh">Art</a>
+      <a href="#destext" class="resumeh">Design</a>
       <a href="connectpage.html" class="connecth">About</a>
     </div>
+
     <a href="javascript:void(0);" class="hamburger" onclick="menuani()">
-      <i class="fa fa-bars"></i>
+      <i class="fa fa-bars" id="hamicon"></i>
     </a>
   </div>
 
@@ -80,12 +87,16 @@
           <span class="wrap"></span>
         </div>
     </div>
-    <a href="#midlineid">
+    <a href="#destext">
       <img src="img/svg/arrow2.svg" class="arrow" width="45px">
     </a>
     </div>
-    <div class="mid_linehead" id="midlineid"> midline </div>
+
     <div class="projects" id="proj">
+
+      <div class="design_text" id="destext">
+        Design
+      </div>
 
       <div class="proj_name">
         <a href="https://www.behance.net/gallery/114524667/Signah-UI-Design" target="_blank">
@@ -159,6 +170,11 @@
             </div>
             </a>
         </div>
+
+        <div class="art_text" id="arttext">
+          Art
+        </div>
+
         <div class="proj_name">
           <a href="https://www.behance.net/gallery/55406741/Ultra-8K-abstract-squares" target="_blank">
           <img src="img/matrix.jpg" alt="matrix" class="proj_image">

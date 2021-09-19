@@ -118,8 +118,29 @@ body {
   display: inline-block;
   margin-top: 0;
   margin: 5%;
+  margin-top: 0;
   margin-bottom: 1%;
 }
+
+.design_text {
+  font-size: 40px;
+  text-align: initial;
+  margin-left: 5%;
+  padding-top: 10vh;
+  margin-bottom: 5vh;
+  font-weight: 600;
+}
+
+.art_text {
+  text-align: right;
+  font-size: 40px;
+  margin-bottom: 5vh;
+  margin-right: 5%;
+  padding-top: 10vh;
+  font-weight: 600;
+
+}
+
 .proj_name {
   display: inline-block;
   position: relative;
