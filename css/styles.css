@@ -38,7 +38,7 @@ body {
   float:left;
   padding-left:3%;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 25px;
 }
 .header a.connecth, a.resumeh {
   text-decoration:none;
@@ -46,7 +46,7 @@ body {
   float:right;
   padding-right:3%;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 0.25%;
 }
 .header.active {
@@ -60,11 +60,11 @@ body {
 }
 .rectangle {
   background-color: #F24646;
-  height: 800px;
+  height: 700px;
 }
-.masthead{
+.masthead {
   opacity: 1;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0;
   display: block;
   margin-left: auto;
@@ -87,7 +87,7 @@ body {
 .intro {
   padding-top: 40%;
   text-align: center;
-  font-size: 120px;
+  font-size: 100px;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 800;
   color: #ffffff;
@@ -100,11 +100,11 @@ body {
   text-align: center;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 45px;
+  font-size: 40px;
   color: #ffffff;
 }
 .arrow {
-  margin-top: 20vh;
+  margin-top: 13vh;
   margin-bottom: 0.5%;
   display: block;
   margin-left: auto;
@@ -745,39 +745,55 @@ body {
   }
 
   .header {
-    color: #F24646;
-    font-size: 30px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: #ffffff;
+    overflow: hidden;
+    background-color: #F24646;
+    position: fixed;
   }
+
+  .header #linkh {
+    display: none;
+  }
+
+  .header a {
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .header a.hamburger {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 2vw;
+  }
+
+
+  .nameh {
+    background-color: #F24646;
+    color: white;
+    padding-left: 0;
+    float: none;
+  }
+
   .header a.nameh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:5%;
+    float:none;
+    padding-left:3%;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 20px;
   }
   .header a.connecth, a.resumeh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:8%;
-    padding-top: 3%;
+    float:none;
+    padding-right:0%;
+    padding-left: 3%;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 20px;
+    padding-top: 0.25%;
   }
-#linkh{
-  padding-top: 2%;
-  display: none;
-}
-.header a.hamburger {
-  float: right;
-  padding-right: 4%;
-  color: #F24646;
-  display: block;
-}
+
   .rectangle {
     height: 80vh;
   }
@@ -906,40 +922,70 @@ i.fas.fa-bars.active{
   color: #F24646;
   font-size: 25px;
 }
-  .header {
-    color: #F24646;
-    font-size: 30px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: #ffffff;
-  }
-  .header a.nameh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:5%;
-    font-weight: 600;
-    font-size: 35px;
-  }
-  .header a.connecth, a.resumeh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:8%;
-    padding-top: 3%;
-    font-weight: 600;
-    font-size: 32px;
-  }
-#linkh{
-  padding-top: 2%;
+.header {
+  overflow: hidden;
+  background-color: #F24646;
+  position: fixed;
+}
+
+.header #linkh {
   display: none;
 }
-.header a.hamburger {
-  float: right;
-  padding-right: 4%;
-  color: #F24646;
+
+.header a {
+  color: white;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-decoration: none;
+  font-size: 17px;
   display: block;
 }
+
+.header a.hamburger {
+  display: block;
+  color: white;
+  position: absolute;
+  right: 3%;
+  top: 2vw;
+}
+
+.header a.hamburger.active {
+  color: #F24646;
+}
+
+
+.nameh {
+  background-color: none;
+  color: white;
+  padding-left: 0;
+  float: none;
+}
+
+.header a.nameh {
+  float:none;
+  padding-left:3%;
+  font-weight: 600;
+  font-size: 20px;
+}
+.header a.connecth, a.resumeh {
+  float:none;
+  padding-right:0%;
+  padding-left: 3%;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 0.25%;
+}
+
+.header a.connecth.active, a.resumeh.active {
+  float:none;
+  padding-right:0%;
+  padding-left: 3%;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 0.25%;
+  color: #F24646;
+}
+
   .rectangle{
     height: 85vh;
   }
