@@ -88,7 +88,7 @@ body {
 .intro {
   padding-top: 40%;
   text-align: center;
-  font-size: 100px;
+  font-size: 90px;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 800;
   color: #ffffff;
@@ -101,7 +101,7 @@ body {
   text-align: center;
   font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 35px;
   color: #ffffff;
 }
 .arrow {
@@ -309,11 +309,11 @@ body {
 
   .intro {
     padding-top: 30vh;
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .typewrite {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .arrow {
@@ -456,11 +456,11 @@ i.fas.fa-bars.active{
 
   .intro {
     padding-top: 30vh;
-    font-size: 65px;
+    font-size: 55px;
   }
 
   .typewrite {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .arrow {
