@@ -9,7 +9,7 @@ body {
   text-align: center;
   animation: colorchange 10s infinite;
   background-color: #F24646;
-  font-family: 'Avenir Next Cyr W00','GothamPro', Helvetica, sans-serif;
+  font-family: 'Avenir','GothamPro', Helvetica, sans-serif;
   font-weight: 500;
 }
 @keyframes colorchange {
