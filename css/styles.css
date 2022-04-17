@@ -329,6 +329,7 @@ body {
   .intro {
     padding-top: 30vh;
     font-size: 50px;
+    font-weight: 900;
   }
 
   .typewrite {
