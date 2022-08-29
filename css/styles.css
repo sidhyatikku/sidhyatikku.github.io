@@ -34,10 +34,10 @@ body {
 }
 .header a.nameh {
   background-color: none;
-  text-decoration:none;
-  color:inherit;
-  float:left;
-  padding-left:3%;
+  text-decoration: none;
+  color: inherit;
+  float: left;
+  padding-left: 3%;
   font-weight: 600;
   font-size: 25px;
 }
@@ -119,25 +119,14 @@ body {
   margin-bottom: 1%;
 }
 
-.design_text {
+.design_text, .ux_text, .web_text, .art_text {
   color: #0063ff;
-  font-size: 40px;
+  font-size: 27px;
   text-align: initial;
   margin-left: 5%;
   padding-top: 10vh;
   margin-bottom: 5vh;
   font-weight: 600;
-}
-
-.art_text {
-  color: #0063ff;
-  text-align: right;
-  font-size: 40px;
-  margin-bottom: 5vh;
-  margin-right: 5%;
-  padding-top: 10vh;
-  font-weight: 600;
-
 }
 
 .proj_name {
