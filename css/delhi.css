@@ -286,7 +286,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   font-size: 2.5vw;
-
+  margin-bottom: 10vh;
 }
 
 .proj_title,.proj_ideation,
@@ -300,10 +300,6 @@ body {
   width: 100%;
 }
 
-.proj_screenshot {
-  height: 20vh;
-  width: 100%;
-}
 
 .proj_view_live {
   margin-left: 15%;
@@ -450,6 +446,7 @@ i.fas.fa-bars.active{
   margin-left: 15%;
   margin-right: 15%;
   font-size: 2.5vw;
+  margin-bottom: 10vh;
 
 }
 
@@ -464,10 +461,6 @@ i.fas.fa-bars.active{
   width: 100%;
 }
 
-.proj_screenshot {
-  height: 20vh;
-  width: 100%;
-}
 
 .proj_view_live {
   margin-left: 15%;
