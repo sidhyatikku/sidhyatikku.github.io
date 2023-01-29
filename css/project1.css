@@ -91,14 +91,14 @@ body {
 .f1gif {
   object-fit: cover;
   object-position: center;
-  height: 50vh;
+  height: auto;
   width: 100%;
 }
 
 .proj_screenshot {
   object-fit: cover;
   object-position: top;
-  height: 50vh;
+  height: auto;
   width: 100%;
 }
 
@@ -295,16 +295,6 @@ body {
   font-weight: 700;
 }
 
-.f1gif {
-  height: 20vh;
-  width: 100%;
-}
-
-.proj_screenshot {
-  height: 20vh;
-  width: 100%;
-}
-
 .proj_view_live {
   margin-left: 15%;
   margin-right: 15%;
@@ -457,16 +447,6 @@ i.fas.fa-bars.active{
 .proj_execution {
   font-size: 4vw;
   font-weight: 700;
-}
-
-.f1gif {
-  height: 20vh;
-  width: 100%;
-}
-
-.proj_screenshot {
-  height: 20vh;
-  width: 100%;
 }
 
 .proj_view_live {

@@ -122,7 +122,7 @@ body {
   flex-grow: 1;
 	width: 33%;
 	height: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 video {
   margin: 0;
@@ -240,6 +240,10 @@ video {
   position: fixed;
 }
 
+#figmadeck {
+  height: 250px;
+}
+
 .header #linkh {
   display: none;
   padding-top: 0;
@@ -253,6 +257,7 @@ video {
   font-size: 17px;
   display: block;
 }
+
 
 .header a.hamburger {
   display: block;
@@ -312,7 +317,7 @@ video {
   margin-left: 15%;
   margin-right: 15%;
   font-size: 2.5vw;
-
+  margin-bottom: 10vh;
 }
 
 .proj_title,.proj_ideation,
@@ -327,7 +332,7 @@ video {
 }
 
 .proj_screenshot {
-  height: 20vh;
+  height: auto;
   width: 100%;
 }
 
@@ -409,6 +414,10 @@ i.fas.fa-bars.active{
   display: none;
 }
 
+#figmadeck {
+  height: 250px;
+}
+
 .header a {
   color: white;
   margin-top: 1vh;
@@ -476,7 +485,7 @@ i.fas.fa-bars.active{
   margin-left: 15%;
   margin-right: 15%;
   font-size: 2.5vw;
-
+  margin-bottom: 10vh;
 }
 
 .proj_title,.proj_ideation,
@@ -491,7 +500,7 @@ i.fas.fa-bars.active{
 }
 
 .proj_screenshot {
-  height: 20vh;
+  height: auto;
   width: 100%;
 }
 
