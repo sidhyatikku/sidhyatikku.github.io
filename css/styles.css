@@ -376,6 +376,10 @@ body {
     display: none;
   }
 
+  .design_text, .ux_text, .web_text, .art_text {
+    margin-left: 0;
+  }
+
 }
 
 
@@ -523,6 +527,10 @@ i.fas.fa-bars.active{
     display: none;
   }
 
+  .design_text, .ux_text, .web_text, .art_text {
+    margin-left: 0;
+  }
+
 }
 
 @media only screen and (max-width: 1499px) and (min-width: 1023px) and (orientation: landscape){
@@ -535,5 +543,6 @@ i.fas.fa-bars.active{
   .end_text {
     font-size: 12px;
   }
+
 
 }
