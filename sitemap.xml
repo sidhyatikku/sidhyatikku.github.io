@@ -15,12 +15,12 @@
 <url>
   <loc>https://sidhyatikku.com/index.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/connectpage.html</loc>
   <lastmod>2023-04-28T21:19:04+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/smd.html</loc>
@@ -28,89 +28,49 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sidhyatikku.com/pages/dihydrogenm.html</loc>
+  <loc>https://sidhyatikku.com/pages/rundown.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sidhyatikku.com/pages/dihydrogenm.html</loc>
+  <lastmod>2023-04-28T21:19:06+00:00</lastmod>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/speakeasy.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/ferrari.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/p5paint.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/delhi.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/reader.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/fifaposter.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/pages/davis.html</loc>
   <lastmod>2023-04-28T21:19:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/dihydrogen/</loc>
-  <lastmod>2022-11-29T05:40:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/speakeasy/</loc>
-  <lastmod>2022-05-12T05:59:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/f1simulator/</loc>
-  <lastmod>2021-11-11T04:35:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/p5-random/</loc>
-  <lastmod>2022-11-29T05:39:22+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/dihydrogen/index.html</loc>
-  <lastmod>2022-11-29T05:40:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/dihydrogen/pages/filter.html</loc>
-  <lastmod>2022-11-29T05:40:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/p5-random/pages/second.html</loc>
-  <lastmod>2022-11-29T05:39:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/p5-random/pages/third.html</loc>
-  <lastmod>2022-11-29T05:39:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://sidhyatikku.com/p5-random/index.html</loc>
-  <lastmod>2022-11-29T05:39:22+00:00</lastmod>
-  <priority>0.41</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://sidhyatikku.com/404.html</loc>
