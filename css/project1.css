@@ -1,6 +1,4 @@
-@import url('https://raw.githubusercontent.com/isaacBats/olive-framework/21ae4a9d250dc0087a6014d3bba549680085489d/assets/fonts/avenir.css');
-@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
- @import url("https://use.typekit.net/lft8ipp.css");
+@import url("../fonts/avenir/avenir.css");
 
 html{
   scroll-behavior: smooth;
@@ -18,7 +16,7 @@ i.fas:hover, i.fab:hover {
 body {
   margin: 0;
   background-color: #f5f5f5;
-  font-family: 'Avenir','GothamPro', Helvetica, sans-serif;
+  font-family: 'Avenir', Helvetica, sans-serif;
   font-weight: 500;
 }
 .header {
@@ -166,6 +164,13 @@ body {
 @media only screen and (max-height: 700px) and (orientation: portrait) {
   i.fas,
   i.fab {
+    color: white;
+    font-size: 19px;
+    margin-right: 7%;
+  }
+
+  i.fas.active,
+  i.fab.active {
     color: #F24646;
     font-size: 19px;
     margin-right: 7%;
@@ -326,7 +331,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #F24646;
     color: white;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
@@ -351,10 +356,18 @@ body {
 
   i.fas,
   i.fab {
+    color: white;
+    font-size: 19px;
+    margin-right: 7%;
+  }
+
+  i.fas.active,
+  i.fab.active {
     color: #F24646;
     font-size: 19px;
     margin-right: 7%;
   }
+
 i.fas.fa-bars{
   color: #F24646;
   font-size: 25px;
@@ -480,7 +493,7 @@ i.fas.fa-bars.active{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #F24646;
     color: white;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
