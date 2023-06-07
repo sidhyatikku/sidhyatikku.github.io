@@ -1,6 +1,4 @@
-@import url('https://raw.githubusercontent.com/isaacBats/olive-framework/21ae4a9d250dc0087a6014d3bba549680085489d/assets/fonts/avenir.css');
-@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
- @import url("https://use.typekit.net/lft8ipp.css");
+@import url("../fonts/avenir/avenir.css");
 
 html{
   scroll-behavior: smooth;
@@ -18,7 +16,7 @@ i.fas:hover, i.fab:hover {
 body {
   margin: 0;
   background-color: #f5f5f5;
-  font-family: 'Avenir','GothamPro', Helvetica, sans-serif;
+  font-family: 'Avenir', Helvetica, sans-serif;
   font-weight: 500;
 }
 .header {
