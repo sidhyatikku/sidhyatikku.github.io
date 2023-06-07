@@ -202,6 +202,13 @@ body {
 
   i.fas,
   i.fab {
+    color: white;
+    font-size: 19px;
+    margin-right: 7%;
+  }
+
+  i.fas.active,
+  i.fab.active {
     color: #F24646;
     font-size: 19px;
     margin-right: 7%;
