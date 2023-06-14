@@ -16,7 +16,7 @@ i.fas:hover, i.fab:hover {
 body {
   margin: 0;
   background-color: #f5f5f5;
-  font-family: 'Avenir0', Helvetica, sans-serif;
+  font-family: 'Avenir', Helvetica, sans-serif;
   font-weight: 500;
 }
 .header {
@@ -178,23 +178,7 @@ body {
     background-color: #F24646;
     position: fixed;
   }
-  .header a.nameh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:5%;
-    font-weight: 600;
-    font-size: 35px;
-  }
-  .header a.connecth, a.resumeh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:8%;
-    padding-top: 3%;
-    font-weight: 600;
-    font-size: 32px;
-  }
+
 #linkh {
   padding-top: 2%;
   display: none;
@@ -219,14 +203,6 @@ body {
 
 .header a.hamburger.active {
   color: #F24646;
-}
-
-
-.nameh {
-  background-color: none;
-  color: white;
-  padding-left: 0;
-  float: none;
 }
 
 .header a.nameh {
@@ -338,7 +314,7 @@ body {
 }
 
 
-@media only screen and (min-height:701px) and (orientation: portrait){
+@media only screen and (min-height:701px) and (orientation: portrait) {
 
   i.fas,
   i.fab {
@@ -371,6 +347,7 @@ i.fas.fa-bars.active{
 }
 
 .header #linkh {
+  padding-top: 2%;
   display: none;
 }
 
@@ -395,13 +372,6 @@ i.fas.fa-bars.active{
   color: #F24646;
 }
 
-
-.nameh {
-  background-color: none;
-  color: white;
-  padding-left: 0;
-  float: none;
-}
 
 .header a.nameh {
   float:none;
@@ -457,24 +427,27 @@ i.fas.fa-bars.active{
     margin-right: 10vw;
   }
   .about_me_intro {
-    font-size: 4vh;
+    font-size: 3.75vh;
   }
 
   .about_txt {
+    hyphens: none;
     text-align: initial;
     font-size: 1.75vh;
     margin-bottom: 2vh;
-    hyphens: auto;
   }
 
   .get_touch_text {
-    font-size: 4vh;
+    font-size: 3.75vh;
   }
 
   .get_touch_email {
-    font-size: 3vh;
+    font-size: 2.75vh;
   }
 
+  .about_info {
+    margin-bottom: 5.5vh;
+  }
 
   .footer.active {
     opacity: 1;

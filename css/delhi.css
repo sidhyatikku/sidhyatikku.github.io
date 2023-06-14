@@ -189,39 +189,14 @@ body {
     font-size: 30px;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #ffffff;
+    overflow: hidden;
+    background-color: #F24646;
+    position: fixed;
   }
-  .header a.nameh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:5%;
-    font-weight: 600;
-    font-size: 35px;
-  }
-  .header a.connecth, a.resumeh {
-    float: left;
-    text-decoration:none;
-    color:inherit;
-    padding-left:8%;
-    padding-top: 3%;
-    font-weight: 600;
-    font-size: 32px;
-  }
-#linkh{
+
+#linkh {
   padding-top: 2%;
   display: none;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #F24646;
-  position: fixed;
-}
-
-.header #linkh {
-  display: none;
-  padding-top: 0;
 }
 
 .header a {
@@ -389,6 +364,7 @@ i.fas.fa-bars.active{
 
 .header #linkh {
   display: none;
+  padding-top: 2%;
 }
 
 .header a {
