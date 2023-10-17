@@ -88,7 +88,7 @@ body {
 
 #myImage {
   width: auto;
-  height: 45vh;
+  height: 56vh;
   margin-left: 10vw;
   margin-top: 15vh;
 }
@@ -240,10 +240,9 @@ body {
       margin-left: 0;
       margin-top: 12vh;
       margin-bottom: 2vh;
-      height: 25vh;
-      width: 25vh;
+      height: 35vh;
+      width: 35vh;
       object-fit: cover;
-      object-position: 10% 0;
     }
 
     .about_text_parent {
@@ -252,7 +251,7 @@ body {
       margin-right: 10vw;
     }
     .about_me_intro {
-      font-size: 4vh;
+      font-size: 3vh;
     }
 
     .about_txt {
@@ -264,11 +263,11 @@ body {
     }
 
     .get_touch_text {
-      font-size: 4vh;
+      font-size: 3vh;
     }
 
     .get_touch_email {
-      font-size: 3vh;
+      font-size: 2vh;
     }
 
     .get_touch {
@@ -416,10 +415,9 @@ i.fas.fa-bars.active{
     margin-left: 0;
     margin-top: 9vh;
     margin-bottom: 2vh;
-    height: 25vh;
-    width: 25vh;
+    height: 35vh;
+    width: 35vh;
     object-fit: cover;
-    object-position: 10% 0;
   }
 
   .about_text_parent {
@@ -439,11 +437,11 @@ i.fas.fa-bars.active{
   }
 
   .get_touch_text {
-    font-size: 3.75vh;
+    font-size: 2.5vh;
   }
 
   .get_touch_email {
-    font-size: 2.75vh;
+    font-size: 2vh;
   }
 
   .about_info {
@@ -509,11 +507,11 @@ i.fas.fa-bars.active{
   }
 
   .get_touch_text {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   .get_touch_email {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .get_touch {
