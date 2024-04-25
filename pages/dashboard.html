@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
+    <link rel="stylesheet" href="../css/brands.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/solid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="fb:app_id" content="1049140398812768"/>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sidhyatikku.com">
+    <meta property="og:title" content="Sidhya Tikku - The Dashboard">
+    <meta property="og:description" content="The Dashboard was Sidhya's senior year design thesis at Parsons School of Design (Class of 2024). The Dashboard contains a summarization of The New School's Financial Data from 2018-2022. You can interact with the graphs to draw comparisons and make your own analysis.">
+    <meta property="og:image" content="https://sidhyatikku.com/img/dashboard/thumbmain.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sidhyatikku.com">
+    <meta property="twitter:title" content="Sidhya Tikku - The Dashboard">
+    <meta property="twitter:description" content="The Dashboard was Sidhya's senior year design thesis at Parsons School of Design (Class of 2024). The Dashboard contains a summarization of The New School's Financial Data from 2018-2022. You can interact with the graphs to draw comparisons and make your own analysis.">
+    <meta property="twitter:image" content="https://sidhyatikku.com/img/dashboard/thumbmain.jpg">
+
+    <!-- Primary Meta Tags -->
+    <title>Sidhya Tikku - The Dashboard</title>
+    <meta name="title" content="Sidhya Tikku - The Dashboard">
+    <meta name="description" content="The Dashboard was Sidhya's senior year design thesis at Parsons School of Design (Class of 2024). The Dashboard contains a summarization of The New School's Financial Data from 2018-2022. You can interact with the graphs to draw comparisons and make your own analysis.">
+
+    <!-- <script src="https://kit.fontawesome.com/78ff595510.js" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT7JD57Q74"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LT7JD57Q74');
+    </script>
+
+
+<script src="../js/scroll_header.js" charset="utf-8"></script>
+<script src="../js/scroll_mast.js" charset="utf-8"></script>
+<script src="../js/menuani.js" charset="utf-8"></script>
+
+
+<div class="sctop" display: "none" id="scroll_to_top"></div>
+
+  <div class="header">
+    <a href="../" class="nameh" id="namecolor">Sidhya Tikku</a>
+
+    <div id="linkh">
+      <a href="../resume.pdf" class="resumeh" target="_blank">Resume</a>
+      <a href="../connectpage.html" class="connecth">About</a>
+      <!-- <a href="../#arttext" class="resumeh">Art</a> -->
+      <a href="../#webtext" class="resumeh">Web</a>
+      <a href="../#destext" class="resumeh">Design</a>
+      <a href="../#uxtext" class="resumeh">Product</a>
+    </div>
+
+    <a href="javascript:void(0);" class="hamburger" onclick="menuani()">
+      <i class="fa fa-bars" id="hamicon"></i>
+    </a>
+  </div>
+
+
+    <meta charset="utf-8">
+    <title>Sidhya Tikku</title>
+
+  </head>
+
+  <body>
+
+    <img src="../img/dashboard/thumb.jpg" alt="rundown cover image" class="thumbnail">
+    <div class="proj_content">
+
+      <div class="proj_title">The Dashboard</div>
+      <div class="proj_intro"><a href="https://dashboard.sidhyatikku.com/" target="_blank">The Dashboard</a> presents a summary of The New School’s Financial Data that allows users to interact with data visualizations in order to draw comparisons and make their own analysis about the university’s revenue, expenditure, salaries, assets, and liabilities.
+
+      For a lot of student, their journey at Parsons has not been easy as the university was struggling with its finances due and the community was riddled with uncertainty. This project was created out of growing frustration amongst The New School community and the alleged disproportionate allocation of wages and funds.
+
+      </div>
+
+      <video id="vid_loop_app" width="100%" height="auto" autoplay loop playsinline muted>
+        <source src="../img/dashboard/vid_frame.mp4" type="video/mp4"/>
+      </video>
+
+      <br>
+
+      <div class="proj_execution">Ideation</div>
+      <div class="proj_execution_desc">The idea was simple: solve a pain point that affects me and the community at large with the values this community has taught me: <strong>creativity, innovation, and a desire to challenge the status quo</strong>. The aim of my design thesis is to take the university’s complex financial data and present it to the Parsons community—primarily the students, parents, staff, and professors—in a clear and digestible format, with a focus on transparency and accessibility.
+
+      <!-- <div class="big_text">
+        How can we make complex financial data about The New School easily understandable and accessible?
+      </div> -->
+
+
+      </div>
+
+        <img src="../img/dashboard/news.jpeg" alt="NYT news" class="proj_screenshot">
+
+      <div class="proj_execution">Data Pipeline</div>
+      <div class="proj_execution_desc">The New School is a 501(c)3 designated non-profit and their financial data can be publicly accessed by visiting the IRS website and looking up their data with EIN #13-3297197. The data is extracted from the IRS's website, loaded and transformed in Excel using Power Query, and visualized with Tableau.
+
+      </div>
+
+
+      <img src="../img/dashboard/irs.jpg" alt="IRS filings" class="proj_screenshot">
+      <img src="../img/dashboard/process.jpeg" alt="IRS filings" class="proj_screenshot">
+
+      <div class="proj_execution">Execution</div>
+      <div class="proj_execution_desc">The visualizations from Tableau are compiled into multiple dashboards and embedded on a responsive website. The website design takes a "mobile-first" approach and can be accessed by anyone anywhere.</div>
+
+      <img src="../img/dashboard/desktop.jpeg" alt="The Dashboard desktop mockup with tableau charts inside The New School library" class="proj_screenshot">
+      <img src="../img/dashboard/hand.jpg" alt="The Dashboard mobile mockup with tableau charts nside The New School library" class="proj_screenshot">
+
+      <div class="proj_execution">Campaign Materials</div>
+      <div class="proj_execution_desc">To raise awareness regarding the initiative and solution, deliverables were designed for the project. The goal was to distribute the deliverables with The New School community and allow them to display their support for this endeavour. Modelling credits: <a href="https://manandua.com/" target="_blank">Manan Dua</a></div>
+
+      <img src="../img/dashboard/cap.jpg" alt="Model wearing a The Dashboad branded cap" class="proj_screenshot">
+      <img src="../img/dashboard/sticker.jpg" alt="The Dashboard branded stickers" class="proj_screenshot">
+      <img src="../img/dashboard/bottle.jpeg" alt="The Dashboard branded stickers" class="proj_screenshot">
+      <img src="../img/dashboard/thumbmain.jpg" alt="The Dashboard branded laptop mockup" class="proj_screenshot">
+
+      <div class="proj_execution_desc">The Dashboard was my senior year design thesis project at Parsons School of Design at The New School, part of Class of 2024. This project was made possible with the continuous support and guidance of my thesis professors, Joe Marianek and Dinah Fried. This project was built using HTML, CSS, JS, Excel, anime.js, and typewrite.js. and Tableau.</div>
+
+
+    </div>
+
+    <div class="proj_view_live">
+      <a href="https://dashboard.sidhyatikku.com" target="_blank" class="view_live"> View Project Live</a>
+      <a href="https://github.com/sidhyatikku/dashboard" target="_blank" class="view_code">GitHub Repository</a>
+    </div>
+
+    <div class="footer">
+      <script src="../js/footer_scroll.js" charset="utf-8"></script>
+      <div class="social">
+        <a href="https://linkedin.com/in/sidhyatikku" target="_blank" class="linkedin">
+          <i class="fab fa-linkedin-in"></i> </span>
+        </a>
+
+        <a href="https://behance.net/sidhyatikku" target="_blank" class="behance">
+          <i class="fab fa-behance"></i>
+        </a>
+
+        <a href="mailto:mail@sidhyatikku.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="https://github.com/sidhyatikku" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://dribbble.com/sidhyatikku" target="_blank" class="dribbble">
+          <i class="fab fa-dribbble"></i>
+        </a>
+
+        <a href="https://twitter.com/sidhyatikku" target="_blank" class="twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://instagram.com/sidhya.design" target="_blank">
+          <i class="fab fa-instagram" style="margin-right:0;"></i>
+        </a>
+      </div>
+      <div class="end_text">
+        Made with <i class="fas fa-heart" id="heartrex"></i> by Sidhya Tikku
+      </div>
+    </div>
+
+
+  </body>
+</html>
